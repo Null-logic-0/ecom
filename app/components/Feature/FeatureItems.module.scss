@@ -1,0 +1,29 @@
+@import "../../color.scss";
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+  
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    color: $black;
+}
+
+.subTitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: $defaultMenuTxt;
+}

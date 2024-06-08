@@ -1,0 +1,28 @@
+@import '../../color.scss';
+
+.container {
+    border-radius: 5px;
+    border: 1px solid $categoriesBorder;
+    background: $white;
+    padding: 16px 0 24px 0;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    color: $black;
+}
+
+.container:hover {
+    border: 1px solid $categoriesBorderHover;
+    box-shadow: $categoriesBorderShadow;
+}

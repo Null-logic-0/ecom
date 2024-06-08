@@ -1,0 +1,107 @@
+@import "../../color.scss";
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1320px;
+    width: 100%;
+    padding: 24px 10px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.search {
+    max-width: 507px;
+    width: 100%;
+}
+
+.form {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+.input {
+    max-width: 400px;
+    width: 100%;
+    padding: 12px 30px;
+    color: $inputColor;
+    font-size: 15px;
+    line-height: 21px;
+    border: 1px solid $inputColor;
+    border-radius: 6px 0px 0px 6px;
+    outline: none;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 26%;
+    left: 6px;
+    color: $inputColor;
+}
+
+.btn {
+    padding: 14px 24px;
+    color: $white;
+    border-radius: 0px 6px 6px 0px;
+    background: $mainBtnColor;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background-color: $mainBtnColorHover;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.line {
+    height: 24px;
+    width: 1px;
+    background-color: $line;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.cartTxt {
+    color: $headerTopTxt;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.cartSum {
+    color: $black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media (max-width:726px) {
+    .main{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

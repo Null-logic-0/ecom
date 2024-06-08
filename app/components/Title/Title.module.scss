@@ -1,0 +1,27 @@
+@import "../../color.scss";
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.heading {
+    color: $black;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}

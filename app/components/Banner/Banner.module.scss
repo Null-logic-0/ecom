@@ -1,0 +1,148 @@
+@import "../../color.scss";
+
+.main {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    max-width: 1300px;
+    width: 100%;
+    margin-top: 60px;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    padding: 30px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.heroTitle {
+    color: $white;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    max-width: 500px;
+    width: 100%;
+}
+
+.heroSubTitle {
+    border-left: 1px solid $white;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-left: 12px;
+}
+
+.txt {
+    color: $white;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.txt span {
+    padding: 4px 12px;
+    background-color: $heroSale;
+    border-radius: 5px;
+}
+
+.small {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.subTxt {
+    color: $black;
+    font-weight: 500;
+}
+
+.desc {
+    color: $headerTopTxt;
+}
+
+.big {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.cardHalfWidth {
+    flex: 3;
+    max-width: 872px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 24px;
+
+
+}
+
+.cardFullWidth {
+    width: 423px;
+    height: 288px;
+    
+}
+
+.card1 {
+    background-image: url('../../../public/images/BannarBig.png');
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.card2 {
+    background-image: url('../../../public/images/BG.png');
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+}
+
+.card3 {
+    background-image: url('../../../public/images/BG2.png');
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.card3 p {
+    color: $white;
+    font-size: 32px;
+    font-weight: 600;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.card3 h2 {
+    padding-top: 60px;
+    color: $white;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+@media(max-width:427px) {
+    .cardFullWidth {
+        width: 300px;
+
+    }
+}

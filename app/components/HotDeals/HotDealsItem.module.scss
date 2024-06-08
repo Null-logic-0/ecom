@@ -1,0 +1,110 @@
+@import '../../color.scss';
+
+.container {
+    max-width: 528px;
+    width: 100%;
+    border: 1px solid $categoriesBorder;
+    background-color: $white;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 0 24px 0;
+    position: relative;
+}
+
+.container:hover {
+    box-shadow: $categoriesBorderHover;
+    border: 1px solid $categoriesBorderHover;
+}
+
+.icon {
+    padding: 10px;
+    border: 2px solid $bagColor;
+    max-width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: $white;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+
+.favorite:hover {
+    background-color: $favoriteColor;
+}
+
+.eye:hover {
+    background-color: $viewColor;
+}
+
+.buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.priceRating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.name {
+    color: $productsName;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.price {
+    font-size: 24px;
+    color: $black;
+    font-weight: 500;
+}
+
+.oldPrice {
+    margin-left: 3px;
+    color: $oldprice;
+    text-decoration: line-through;
+}
+
+.sale {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    display: flex;
+    gap: 8px;
+}
+
+.raiting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.feedback {
+    color: $defaultMenuTxt;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.countDown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.alert {
+    color: $defaultMenuTxt;
+    font-size: 16px;
+    font-weight: 400;
+
+}

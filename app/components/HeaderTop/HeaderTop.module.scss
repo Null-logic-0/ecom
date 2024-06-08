@@ -1,0 +1,60 @@
+@import "../../color.scss";
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;   
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 100px;
+    flex-wrap: wrap; 
+  
+
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.txt {
+    color: $headerTopTxt;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    justify-items: center;
+    gap: 20px;
+}
+
+.fill {
+    background-color: $fill;
+   
+}
+
+.outline {
+    background-color: $white;
+    border-bottom: 1px solid $borderBottom;
+}

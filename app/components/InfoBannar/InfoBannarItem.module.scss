@@ -1,0 +1,78 @@
+@import '../../color.scss';
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 424px;
+    height: 536px;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.VegBg {
+    background-image: url('../../../public/images/vegBg.png');
+}
+
+.fruitBg {
+    background-image: url('../../../public/images/fruitBg.jpg');
+}
+
+.meatBg {
+    background-image: url('../../../public/images/meatBg.jpg');
+
+}
+
+.title,
+.subTitle,
+.text {
+    color: $white;
+}
+
+.title,
+.titleAlt {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.subTitle,
+.subTitleAlt {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.text,
+.textAlt {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sale {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    color: $saleColor2;
+}
+
+
+
+
+.titleAlt,
+.subTitleAlt,
+.textAlt {
+    color: $black;
+}
+
+.saleAlt {
+    border-radius: 5px;
+    background: $black;
+    text-align: center;
+    color: $saleAltColor;
+    padding: 6px 12px;
+    margin-left: 5px;
+}
+

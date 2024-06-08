@@ -1,0 +1,11 @@
+@import '../../color.scss';
+
+.container {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+

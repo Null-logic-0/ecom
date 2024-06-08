@@ -1,0 +1,67 @@
+@import "../../color.scss";
+
+.container {
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 40px;
+    border-radius: 50px;
+    max-width: 180px;
+    width: 100%;
+
+}
+
+.fill {
+    background-color: $white;
+    color: $menuTxtColor;
+    
+
+}
+
+.fill:hover {
+    background-color: $fill;
+}
+
+
+.outline {
+    background-color: transparent;
+    color: $mainBtnColor;
+}
+
+
+.outline:hover {
+    color: $mainBtnColorHover;
+}
+
+.color {
+    background-color: $mainBtnColor;
+    color: $white;
+   
+}
+
+.color:hover {
+    background-color: $mainBtnColorHover;
+    
+}
+
+
+.medium {
+    padding: 14px 32px;
+    font-size: 14px;
+}
+
+.large {
+    padding: 14px 30px;
+    max-width: 300px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

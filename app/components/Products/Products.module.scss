@@ -1,0 +1,107 @@
+@import '../../color.scss';
+
+
+.products {
+    max-width: 264px;
+    width: 100%;
+    border: 1px solid $categoriesBorder;
+    background-color: $white;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.products:hover {
+    box-shadow: $categoriesBorderHover;
+    border: 1px solid $categoriesBorderHover;
+}
+
+.cardBottom {
+    padding: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.priceRating {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.name {
+    color: $productsName;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.price {
+    font-size: 16px;
+    color: $black;
+    font-weight: 500;
+}
+
+.oldPrice {
+    margin-left: 3px;
+    color: $oldprice;
+    text-decoration: line-through;
+}
+
+.cardBag {
+    padding: 10px;
+    max-width: 40px;
+    height: 40px;
+    background-color: $bagColor;
+    border-radius: 50%;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.cardBag:hover {
+    background-color: $categoriesBorderHover;
+
+}
+
+.card {
+    position: relative;
+}
+
+
+.hover {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    position: absolute;
+    right: 11px;
+    top: 11px;
+    transition: all 0.2s;
+}
+
+.icon {
+    padding: 10px;
+    border: 2px solid $bagColor;
+    max-width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: $white;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+
+.favorite:hover {
+    background-color: $favoriteColor;
+}
+
+.eye:hover {
+    background-color: $viewColor;
+}
+
+.sale {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+}
+
