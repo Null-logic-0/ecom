@@ -1,0 +1,37 @@
+@import '../../color.scss';
+
+.bg {
+    background-color: $bagColor;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE and Edge */
+.container {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}

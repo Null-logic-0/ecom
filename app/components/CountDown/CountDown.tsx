@@ -8,7 +8,7 @@ type Props = {
 
 
 export default function Timer({mode}:Props) {
-    const { days, hours, minutes, seconds } = useCountdown(new Date("june 10, 2024 00:00:00"));
+    const { days, hours, minutes, seconds } = useCountdown(new Date("june 20, 2024 00:00:00"));
 
     const numberClassNames = [
         styles.numbers,

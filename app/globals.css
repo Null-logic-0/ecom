@@ -18,7 +18,6 @@ section {
 body {
     line-height: 1;
     font-family: "Poppins", sans-serif;
-    height: 1000vh;
 }
 
 ol,
@@ -57,7 +56,10 @@ a {
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline;   
+    vertical-align: baseline; 
+    scroll-behavior: smooth;
+    
+
     
 }
 
@@ -74,3 +76,4 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
     -webkit-appearance: none;
 }
+

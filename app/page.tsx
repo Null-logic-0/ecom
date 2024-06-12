@@ -9,11 +9,14 @@ import Feature from "./components/Feature/Feature";
 import Categories from "./components/Categories/Categories";
 import ProductsSection from "./components/Products/ProductsItem";
 import InfoBannar from "./components/InfoBannar/InfoBannar";
-import ProductCard from "./components/HotDeals/HotDealsItems";
 import DealsSection from "./components/HotDeals/HotDeals";
 import Cover from "./components/Cover/Cover";
 import FeaturedProducts from "./components/Featured/Featured";
 import NewsSection from "./components/News/NewsItem";
+import Clients from "./components/Clients/Clients";
+import SponsorsSection from "./components/Sponsors/SponsorsItems";
+import InstagramSection from "./components/Social/Social";
+import Letter from "./components/NewsLetter/Letter";
 
 
 
@@ -39,6 +42,11 @@ export default function Home() {
       <Cover/>
       <FeaturedProducts/>
       <NewsSection/>
+      <Clients/>
+      <SponsorsSection/>
+      <InstagramSection/>
+      <Letter/>
+      
    
     
     

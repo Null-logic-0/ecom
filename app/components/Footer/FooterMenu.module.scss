@@ -1,0 +1,39 @@
+@import '../../color.scss';
+
+.lists {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    flex-wrap: wrap;
+    
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.heading {
+    color: $white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.title {
+    color: var(--Gray-Scale-Gray-400, #999);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.title:hover {
+    color: $white;
+}

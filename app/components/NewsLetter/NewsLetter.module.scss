@@ -1,0 +1,74 @@
+@import '../../color.scss';
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F7;
+    margin-top: 60px;
+    padding: 40px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.title {
+    color: $black;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.text {
+    color: var(--Gray-Scale-Gray-400, #999);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form {
+    position: relative;
+    max-width: 536px;
+    width: 100%;
+}
+
+.emailInput {
+    max-width: 492px;
+    width: 100%;
+    border: 1px solid #E6E6E6;
+    background-color: $white;
+    border-radius: 46px;
+    padding: 14px 14px;
+    color: $black;
+    outline: none;
+}
+
+.emailBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    border-radius: 43px;
+    background: var(--Branding-Success, #00B207);
+    color: $white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
