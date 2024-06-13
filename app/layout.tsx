@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/Footer/Footer";
+import Letter from "./components/NewsLetter/Letter";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +22,8 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={inter.className}>{children}
-        <Footer/>
+        <Letter />
+        <Footer />
       </body>
     </html>
   );

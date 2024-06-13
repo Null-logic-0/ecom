@@ -1,10 +1,11 @@
+'use client'
 /* eslint-disable react/display-name */
 /* eslint-disable import/no-anonymous-default-export */
 
-import Timer from "@/app/components/CountDown/CountDown"
 import HeaderTop from "@/app/components/HeaderTop/HeaderTop"
 import Menu from "@/app/components/Menu/Menu"
 import Nav from "@/app/components/Navigation/Nav"
+
 
 
 
@@ -20,7 +21,6 @@ export default function Contact (){
             />
             <Nav />
             <Menu />
-            
 
         </div>
     )

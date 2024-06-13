@@ -16,7 +16,6 @@ import NewsSection from "./components/News/NewsItem";
 import Clients from "./components/Clients/Clients";
 import SponsorsSection from "./components/Sponsors/SponsorsItems";
 import InstagramSection from "./components/Social/Social";
-import Letter from "./components/NewsLetter/Letter";
 
 
 
@@ -45,7 +44,7 @@ export default function Home() {
       <Clients/>
       <SponsorsSection/>
       <InstagramSection/>
-      <Letter/>
+      
       
    
     

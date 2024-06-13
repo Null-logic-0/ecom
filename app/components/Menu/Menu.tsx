@@ -25,7 +25,7 @@ const Menu: React.FC = () => {
 
     return (
         <div>
-            <Header navItems={navItems} phoneNumber="2195550114" mode={mode} /> {/* Pass mode to Header */}
+            <Header navItems={navItems} phoneNumber="2195550114" mode={mode} />
         </div>
     );
 };
