@@ -1,0 +1,71 @@
+.container {
+    border-radius: 8px;
+    background: var(--Gray-Scale-White, #FFF);
+    box-shadow: 0px 0px 56px 0px rgba(0, 38, 3, 0.08);
+    padding: 30px;
+    max-width: 984px;
+    width: 100%;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 486px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.title {
+    color: var(--Gray-Scale-Gray-900, #1A1A1A);
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.text {
+    color: var(--Gray-Scale-Gray-500, #808080);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form {
+    max-width: 884px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.input {
+    max-width: 884px;
+    width: 100%;
+
+}
+
+.input[type="text"],
+.input[type='email'],
+.textarea {
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+    background-color: white;
+    color: #1A1A1A;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    padding: 16px;
+    transition: all 0.2s;
+    resize: none;
+}
+
+.input[type="text"]:focus,
+.input[type='email']:focus,
+.textarea:focus {
+    border: 1px solid var(--Branding-Success, #00B207);
+}
+
+.inputs {
+    display: flex;
+    gap: 16px;
+}

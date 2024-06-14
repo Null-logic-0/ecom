@@ -1,0 +1,10 @@
+.main {
+    border-radius: 8px;
+    background: var(--Gray-Scale-White, #FFF);
+    box-shadow: 0px 0px 56px 0px rgba(0, 38, 3, 0.08);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 321px;
+    width: 100%;
+}
